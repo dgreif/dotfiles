@@ -28,7 +28,7 @@
 	process = git-lfs filter-process
 
 [github]
-	user = smockle
+	user = dgreif
 
 [help]
 	autocorrect = -1
@@ -38,9 +38,6 @@
 
 [init]
 	defaultBranch = main
-
-[log]
-	showSignature = true
 
 [pull]
 	rebase = true

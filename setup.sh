@@ -62,9 +62,8 @@ echo -e "\033[1mPausing Apt setup\033[0m\n"
 # npm
 echo -e "\033[1mSetting up npm\033[0m"
 npm config set init-license "MIT"
-npm config set init-author-email "clay@smockle.com"
-npm config set init-author-name "Clay Miller"
-npm config set init-author-url "https://www.smockle.com"
+npm config set init-author-email "dustin.greif@gmail.com"
+npm config set init-author-name "Dusty Greif"
 echo -e "\033[1mnpm setup complete\033[0m\n"
 
 # vi
