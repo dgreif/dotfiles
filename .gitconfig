@@ -11,9 +11,6 @@
 	oldHighlight = red reverse
 	newHighlight = green reverse
 
-[commit]
-	gpgsign = true
-
 [core]
 	excludesfile = ~/.gitignore
 	pager = diff-so-fancy | less --tabs=4 -RXE
@@ -55,9 +52,8 @@
 	recurse = true
 
 [user]
-	name = Clay Miller
-	email = clay@smockle.com
-	signingkey = 1E6BEB6FED57655B
+	name = Dusty Greif
+	email = dustin.greif@gmail.com
 	
 [url "https://github.com/"]
 	insteadOf = git@github.com:
