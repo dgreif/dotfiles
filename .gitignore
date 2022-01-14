@@ -29,6 +29,4 @@ Temporary Items
 .nova
 
 # dotfiles
-node_modules
-.env
-Brewfile.lock.json
+.envBrewfile.lock.json
