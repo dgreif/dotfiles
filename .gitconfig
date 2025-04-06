@@ -1,28 +1,11 @@
 [alias]
-        co = checkout
-        br = branch
-        ci = commit
-        st = status
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
 
 [color]
 	ui = true
-
-[color "diff"]
-	old = red
-	new = green
-
-[color "diff-highlight"]
-	oldNormal = red
-	newNormal = green
-	oldHighlight = red reverse
-	newHighlight = green reverse
-
-[core]
-	excludesfile = ~/.gitignore
-	pager = diff-so-fancy | less --tabs=4 -RXE
-
-[credential]
-	helper = osxkeychain
 
 [fetch]
 	prune = true
@@ -36,9 +19,6 @@
 [github]
 	user = dgreif
 
-[help]
-	autocorrect = -1
-
 [include]
 	path = /etc/gitconfig
 
@@ -51,12 +31,6 @@
 [push]
 	default = current
 
-[submodule]
-	recurse = true
-
 [user]
 	name = Dusty Greif
-	email = dustin.greif@gmail.com
-	
-[url "https://github.com/"]
-	insteadOf = git@github.com:
+	email = dgreif@github.com
