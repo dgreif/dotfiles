@@ -30,6 +30,7 @@
 
 [push]
 	default = current
+	autoSetupRemote = true
 
 [user]
 	name = Dusty Greif
