@@ -25,6 +25,9 @@ echo -e "\033[1mSetting up Zsh\033[0m"
 if [ ! -d "${HOME}/.oh-my-zsh" ]; then
   git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git "${HOME}/.oh-my-zsh"
 fi
+if [ ! -d "${HOME}/.nvm" ]; then
+  git clone --depth=1 https://github.com/nvm-sh/nvm.git "${HOME}/.nvm"
+fi
 ln -fs "${DOTFILES_DIRECTORY}/.zshrc" "${HOME}/.zshrc"
 [ -n "${CODESPACES}" ] && ln -nfs "/workspaces" "${HOME}/Developer"
 [ -n "${CODESPACES}" ] && [ ! -d "/workspaces/dotfiles" ] && ln -nfs "${DOTFILES_DIRECTORY}" "/workspaces/dotfiles"
