@@ -15,7 +15,6 @@ DEBIAN=$([ -f /etc/debian_version ] && echo "DEBIAN" || echo "")
 # git
 echo -e "\033[1mSetting up Git\033[0m"
 ln -fs "${DOTFILES_DIRECTORY}/.gitconfig" "${HOME}/.gitconfig"
-ln -fs "${DOTFILES_DIRECTORY}/.gitignore" "${HOME}/.gitignore"
 [ -n "${CODESPACES}" ] && git config --global "credential.helper" "cache" && git update-index --skip-worktree "${DOTFILES_DIRECTORY}/.gitconfig"
 echo -e "\033[1mGit setup complete\033[0m\n"
 
