@@ -3,8 +3,6 @@
 setopt pipefail
 
 DOTFILES_DIRECTORY=$(cd "${0%/*}" && pwd -P)
-MACOS=$(uname -a | grep -Fq Darwin 2>/dev/null && echo "MACOS" || echo "")
-DEBIAN=$([ -f /etc/debian_version ] && echo "DEBIAN" || echo "")
 
 # Pre-requisites
 # - Log in to iCloud
