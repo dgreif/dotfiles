@@ -23,3 +23,6 @@ if [ -s "$NVM_DIR/nvm.sh" ]; then
   npm() { _load_nvm; npm "$@"; }
   npx() { _load_nvm; npx "$@"; }
 fi
+
+# Local user binaries
+export PATH="$HOME/.local/bin:$PATH"
